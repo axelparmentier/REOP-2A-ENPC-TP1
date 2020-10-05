@@ -1,8 +1,6 @@
-# REOP 2A - TP1
+# Introduction to Julia for optimization
 
-This practical session is an introduction to Julia for optimization.
-
-## Before the session
+## Practical session
 
 Please try to prepare the session by yourself before coming to class. This means you have to:
 
@@ -30,3 +28,27 @@ This should open an internet browser and display a window called Jupyter.
 
 Within Jupyter, navigate to the place where you extracted `REOP-2A-ENPC-TP1` and open the file named `Metaheuristics using Julia.ipynb`. Try to run every cell once in order. If no bug is triggered, you are ready for the practical session.
 
+## Useful tips for the class project and beyond
+
+### Documentation
+
+If you are looking for a command or function you don't know, start with https://juliadocs.github.io/Julia-Cheat-Sheet/.
+
+If you want to know more about Julia syntax and functionalities, check out the official documentation at https://docs.julialang.org/en/v1/ or the course https://en.wikibooks.org/wiki/Introducing_Julia. A more in-depth coverage is given by https://benlauwens.github.io/ThinkJulia.jl/latest/book.html.
+
+### Useful libraries
+
+- Graphs: https://juliagraphs.org/
+- Optimization: https://www.juliaopt.org/
+- Statistics: https://juliastats.org/
+- Plotting: https://github.com/JuliaPy/PyPlot.jl or https://github.com/JuliaPlots
+- Utilities: https://github.com/timholy/ProgressMeter.jl
+- Anything else: https://juliaobserver.com/packages or https://juliahub.com/ui/Packages
+
+### Debugging
+
+Here is a four-step debugging procedure that works 99\% of the time:
+1. Try to understand the bug by tracking its origin.
+2. If this doesn't work, copy-paste the bug message into Google and read the first three forum answers about it.
+3. If that doesn't work, sleep on it and try again tomorrow.
+4. If none of the previous methods work, email your teaching assistant.
